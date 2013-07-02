@@ -109,13 +109,13 @@ Operators:
 </remarks>
 \**--------------------------------------------------------------------------**/
 
-#include "..\YSI-Internal\y_version"
+#include "..\YSI_Internal\y_version"
 
-#include "..\YSI-Internal\y_funcinc"
+#include "..\YSI_Internal\y_funcinc"
 
-#include "..\YSI-Server\y_scriptinit"
+#include "..\YSI_Server\y_scriptinit"
 
-#include "..\YSI-Internal\y_natives"
+#include "..\YSI_Internal\y_natives"
 
 #if !defined _DEBUG
 	#define _DEBUG 0
