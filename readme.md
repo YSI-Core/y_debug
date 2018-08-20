@@ -1,3 +1,40 @@
+# y_debug
+
+Provides macros for outputting debug information only when the mode is compiled with the correct settings (`_DEBUG`).
+
+
+[![sampctl](https://shields.southcla.ws/badge/sampctl-y_debug-2f2f2f.svg?style=for-the-badge)](https://github.com/YSI-Core/y_debug)
+
+## Installation
+
+To install just this one library:
+
+```bash
+sampctl package install YSI-Core/y_debug
+```
+
+Include in your code and begin using the library:
+
+```pawn
+#include <YSI-Core/y_debug>
+```
+
+## Documentation
+
+* [Quick Start](YSI-Core/y_debug/quick-start.md) - One very simple example of getting started with this library.
+* [Features](YSI-Core/y_debug/features.md) - More features and examples.
+* [FAQs](YSI-Core/y_debug/faqs.md) - Frequently Asked Questions, including errors and solutions.
+* [API](YSI-Core/y_debug/api.md) - Full list of all functions and their meaning.
+* [Internal](YSI-Core/y_debug/internal.md) - Internal developer documentation for the system.
+
+## Testing
+
+To test, simply run the package:
+
+```bash
+sampctl package run
+```
+
 # YSI
 
 ## General Information
@@ -109,34 +146,4 @@ Libraries that have in-game visible effects.
 * [y_races](https://github.com/YSI-Visual/y_races/blob/dev/YSI-Visual/y_races.md)
 * [y_zonenames](https://github.com/YSI-Visual/y_zonenames/blob/dev/YSI-Visual/y_zonenames.md)
 * [y_zonepulse](https://github.com/YSI-Visual/y_zonepulse/blob/dev/YSI-Visual/y_zonepulse.md)
-
-# y_debug
-
-[![sampctl](https://shields.southcla.ws/badge/sampctl-y_debug-2f2f2f.svg?style=for-the-badge)](https://github.com/YSI-Core/y_debug)
-
-## Installation
-
-To install just this one library:
-
-```bash
-sampctl package install YSI-Core/y_debug
-```
-
-Include in your code and begin using the library:
-
-```pawn
-#include <YSI-Core/y_debug>
-```
-
-## Usage
-
-[Click Here] (YSI-Core/y_debug.md)
-
-## Testing
-
-To test, simply run the package:
-
-```bash
-sampctl package run
-```
 
